@@ -168,7 +168,6 @@ export default function ScoreCalculator() {
                     </View>
                 </View>
 
-                {/* Buttons */}
                 <View style={styles.buttonContainer}>
                     <TouchableOpacity
                         style={[
@@ -185,8 +184,6 @@ export default function ScoreCalculator() {
                         <Text style={styles.resetButtonText}>Làm mới</Text>
                     </TouchableOpacity>
                 </View>
-
-                {/* Result */}
                 {result !== null && (
                     <View style={styles.resultContainer}>
                         <View style={styles.resultCard}>

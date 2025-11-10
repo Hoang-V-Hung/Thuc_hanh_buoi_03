@@ -45,6 +45,15 @@ export default function Layout() {
           ),
         }}
       />
+      <Tabs.Screen
+        name="bai5"
+        options={{
+          title: "Bài 5",
+          tabBarIcon: ({ color, size }) => (
+            <Ionicons name="list" color={color} size={size} />
+          ),
+        }}
+      />
     </Tabs>
   );
 }

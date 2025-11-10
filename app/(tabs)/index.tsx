@@ -29,6 +29,12 @@ export default function HomeScreen() {
           <Text style={styles.text}>Bài 4 – Danh sách công việc</Text>
         </TouchableOpacity>
       </Link>
+
+      <Link href="/bai5" asChild>
+        <TouchableOpacity style={styles.button}>
+          <Text style={styles.text}>Bài 5 – Dự báo thời tiết</Text>
+        </TouchableOpacity>
+      </Link>
     </View>
   );
 }
